@@ -1,5 +1,6 @@
-@import './utils/variables.scss';
-@import './utils/placeholders.scss';
+@import './utils/variables';
+@import './base/modern-normalize';
+@import './utils/placeholders';
 @import './components/page-header';
 @import './components/logo';
 
