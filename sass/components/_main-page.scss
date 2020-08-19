@@ -16,7 +16,7 @@
   &__title {
     margin-top: 0;
     margin-bottom: 30px;
-    color: var(--white-color);
+    color: $white-color;
     max-width: 696px;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    background-color: var(--bg-team-color);
+    background-color: $bg-team-color;
     height: 120px;
   }
 }
@@ -214,7 +214,7 @@
 
   &__link:hover &__link--icon,
   &__link:focus &__link--icon {
-    fill: var(--white-color);
+    fill: $white-color;
   }
 }
 
@@ -275,6 +275,6 @@
 
   &:hover .clients__item--icon,
   &:focus .clients__item--icon {
-    fill: var(--accent-text-color);
+    fill: $accent-text-color;
   }
 }
