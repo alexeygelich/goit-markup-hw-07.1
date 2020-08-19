@@ -29,25 +29,6 @@
   }
 }
 
-.button {
-  display: inline-block;
-  padding: 10px 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  align-items: center;
-  min-width: 200px;
-  border-radius: 4px;
-  border-width: 0;
-  text-align: center;
-  color: var(--white-color);
-  background-color: var(--accent-text-color);
-
-  font-family: Roboto;
-}
-
 /* Work */
 
 .work-section {
@@ -77,10 +58,6 @@
     font-weight: 700;
     text-transform: uppercase;
   }
-}
-
-.visually-hidden {
-  @extend %visually-hidden;
 }
 
 .work__item {
